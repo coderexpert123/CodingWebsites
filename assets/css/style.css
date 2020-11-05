@@ -1,6 +1,4 @@
  
-
-/* BASE - Base tyles, Variables, Mixins, etc. */
 body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -51,7 +49,7 @@ img {
 }
 
 .mu-read-more-btn {
-  border: 2px solid #ff0000;
+  border: 1px solid #fff;
   color: #fff;
   display: inline-block;
   margin-top: 10px;
@@ -159,6 +157,7 @@ img {
   font-family: "Montserrat", sans-serif;
   font-size: 26px;
   font-weight: bold;
+  text-transform: uppercase;
   padding-top: 20px;
   letter-spacing: 0.5px;
 }
@@ -404,7 +403,7 @@ img {
   background-color: #800080;
 }
 #mu-service .mu-service-area .mu-service-single:nth-child(3) {
-  background-color: #ff8000;
+  background-color: #ff8040;
 }
 #mu-service .mu-service-area .mu-service-single span {
   font-size: 30px;
@@ -2146,8 +2145,6 @@ img {
 
   #mu-menu .navbar-header .navbar-brand {
     padding-top: 10px;
-  
-
   }
 
   #mu-search-icon {
@@ -2156,7 +2153,7 @@ img {
 
   .navbar-toggle {
     background-color: #01bafd;
-    border-radius: 10;
+    border-radius: 0;
   }
 
   .navbar-default .navbar-toggle {
@@ -2168,7 +2165,7 @@ img {
   }
 
   .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #01bafd;
+    background-color: #ff8040;
   }
 
   #mu-menu .navbar-default .navbar-nav li > a {
